@@ -1,0 +1,15 @@
+
+
+This project is a reimplementation of the “Character-Aware Neural Language Models” work of Kim et al. 
+The goal is to learn about Character-Aware Neural Language Models and how one can use it to model language.
+
+
+[Model Structure]
+
+1. This language model leverages subword information through a character-level convolutional neural network (CNN)
+
+2. The output of the CNN is used as an input to a recurrent neural network language model (RNN-LM).
+
+
+
+
